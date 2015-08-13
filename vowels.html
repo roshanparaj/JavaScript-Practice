@@ -1,0 +1,20 @@
+<html>
+<head>
+	<title>Checking Vowels</title>
+	<script type="text/javascript">
+		function chkvowel(){
+			var letter=document.getElementById('type').value;
+			if((letter=="a") || (letter=="e") || (letter=="i") || (letter=="o") || (letter=="u")){
+				alert("The entered letter is vowel.");
+			}
+			else{
+				alert("You entered a consonant letter.");
+			}
+		}
+	</script>
+</head>
+<body>
+	<input type="text" id="type"/>
+	<input type="button" value="Check" onClick="chkvowel()"/>
+</body>
+</html>

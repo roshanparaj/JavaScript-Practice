@@ -1,0 +1,24 @@
+<html>
+<head>
+	<title>LogIn</title>
+	<script type="text/javascript">
+		function checklogin(){
+			var usr=document.getElementById('usrname').value;
+			var pw=document.getElementById('pswd').value;
+			if((usr=="niit") && (pw="kathmandu")){
+				alert("Congratulations! LogIn Successful!");
+			}
+			else{
+				alert("LogIn Unsuccessful");
+			}
+		}
+	</script>
+</head>
+<body>
+	<center>
+		Username: <input type="text" id="usrname"/><br/><br/>
+		Password: <input type="password" id="pswd"/><br/><br/>
+		<input type="button" value="LogIn" onClick="checklogin()"/>
+	</center>
+</body>
+</html>
