@@ -1,0 +1,13 @@
+
+for (var hash="#"; hash.length<=6; hash+="#")
+
+
+//the variable hash initializes the value of hash with "#". 
+//when hash variable is printed for the first time, it's value is one #
+//when hash variable is printed for the second time, it's value is two #. i.e. ##
+//and so on upto "######" since the loop occurs for the number of times equal to the length of the six hashs.	
+	{
+
+		console.log(hash);
+
+	}
